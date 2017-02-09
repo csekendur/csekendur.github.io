@@ -1,0 +1,63 @@
+@media only screen and (max-width: 640px) {
+/*    h1{
+      font-size:3.5em;
+    }*/
+
+
+/***********************************
+PAGE: PORTFOLIO
+************************************/
+
+    .gallery figure {
+        overflow: hidden;
+        float: left;
+        width: 96%;
+        margin: 2%;
+        z-index: 97;
+        position: relative;
+    }
+    .gallery figcaption {
+      
+      float: left;
+      width:100%;
+      height: 50px;
+      position:relative;
+      opacity: 1;
+      background: rgba(255,255,255,0); 
+    }
+    .gallery figcaption h3 {
+      font-size:1em;
+      text-align: left;
+      margin-bottom: 6px;
+    }
+
+/***********************************
+PAGE: PROJECT
+************************************/
+    .project-title {
+      padding-bottom: 0;
+    }
+    .project-title h2 {
+      font-size: 3em;
+    }
+
+    .left-column-text {
+      width: 98%;
+      margin: 0 1%;
+      text-align: center;
+      margin-top: 0;
+    }
+
+    .right-column-text {
+      width: 98%;
+      margin: 0 1%;
+      text-align: center;
+    }
+
+    .prev-next-buttons h2 {
+        font-size:2em;
+        padding: 0;
+        margin: 0;
+    }
+
+}

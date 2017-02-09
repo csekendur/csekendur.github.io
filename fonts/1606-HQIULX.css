@@ -1,0 +1,31 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2016 Schwartzco Inc.
+        License: 1606-HQIULX     
+*/
+
+
+@font-face {
+  font-family: 'Giorgio Sans Web';
+  src: url('GiorgioSans-Bold-Web.eot');
+  src: url('GiorgioSans-Bold-Web.eot?#iefix') format('embedded-opentype'),
+       url('GiorgioSans-Bold-Web.woff2') format('woff2'),
+       url('GiorgioSans-Bold-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GiorgioSans-Bold-Web {
+  font-family: 'Giorgio Sans Web';
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+

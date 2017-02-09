@@ -1,0 +1,245 @@
+/***********************************
+GENERAL
+************************************/
+
+body {
+   font-family: 'Karla', sans-serif;
+}
+
+#wrapper {
+  height: auto;
+  max-width: 1970px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  margin: 0 0 1em 0;
+}
+
+
+/***********************************
+HEADING
+************************************/
+
+header {
+  float: left;
+  margin: 10px 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+text-align: center;
+  margin: 0;
+}
+h1 {
+  font-family: 'Giorgio Sans Web', sans-serif;
+  margin: 15px 0;
+  font-size:5em;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+h2 {
+  font-family: 'Karla', sans-serif;
+  font-size: 1em;
+  margin: -5px 0 0;
+  font-weight: 700;
+}
+
+/***********************************
+NAVIGATION
+************************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 400;
+  padding: 15px 10px;
+}
+
+/***********************************
+FOOTER
+************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width:20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/***********************************
+PAGE: PORTFOLIO
+************************************/
+
+.gallery{
+  height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  display:block;
+
+}
+
+.thumbnails {
+  float: left;
+  width: 48%;
+  margin: 1%;
+  color: #000000;
+  padding: 20px;
+    overflow: hidden;
+    display:inline-block;
+}
+
+.project-thumbnail {
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+
+
+/*
+.text { display: none; }
+#pic:hover .text { display: block; }
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;*/
+
+
+
+
+/***********************************
+PAGE: About
+************************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+
+/***********************************
+PAGE: CONTACT
+************************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png')
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png')
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png')
+}
+
+
+/***********************************
+COLORS
+************************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color:#000;
+}
+
+
+/*green header 
+header {
+  background: #6ab47b;
+  border-color: #599a68;
+}*/
+
+
+/*nav background on mobile
+nav {
+  background: #599a68;
+}*/
+
+/*logo text */
+h1 {
+  color: #000;
+}
+
+/*link color*/
+a {
+  color:#000
+}
+
+/*nav link colors*/
+nav a, nav a:visited {
+  color: #000;
+}
+
+/* selected nav link colors*/
+nav a.selected, nav a:hover {
+  color: #5513FE
+}
+
+
+
+
+

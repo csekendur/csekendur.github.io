@@ -1,0 +1,465 @@
+/***********************************
+GENERAL
+************************************/
+.wrapper {
+  max-width: 1970px;
+  margin: 0 auto;
+  padding: 0 2%;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+
+a {
+  text-decoration: none;
+     font-family: 'Karla', sans-serif;
+
+   font-size: 1em;
+   letter-spacing: -0.03em;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/***********************************
+HEADING
+************************************/
+
+header {
+  float: left;
+  position:fixed;
+  top:0;
+  width: 100%;
+  z-index: 99;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Giorgio Sans Web', sans-serif;
+  margin: 0 auto;
+  font-size:4.5em;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+h2 {
+  font-family: 'Giorgio Sans Web', sans-serif;
+  margin: 0 auto;
+  font-size:4em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  font-style: normal;
+  font-stretch: normal;
+  line-height:  1em;
+}
+
+h3 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size:1.3em;
+  margin: 0 0 1em 0;
+}
+
+h4 {
+  font-family: 'Giorgio Sans Web', sans-serif;
+  margin: 0 auto;
+  font-size:2.5em;
+  font-weight: 700;
+  letter-spacing:0.0625em;
+  font-style: normal;
+  font-stretch: normal;
+
+}
+
+h5 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 0.75em;
+  line-height: 1.2em;
+}
+
+p {
+   font-family: 'Karla', sans-serif;
+   line-height: 1.5em;
+   font-size: 1.2em;
+   letter-spacing: -0.03em;
+}
+
+/***********************************
+NAVIGATION
+************************************/
+
+nav {
+  background-color: white;
+  max-width: 1970px;
+  margin: 0 auto;
+}
+
+#nav-parent {
+  display:flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 3%;
+  margin: 0 auto;
+}
+
+.nav-icon {
+  flex-basis:auto;
+  padding-top: 10px;
+}
+
+#logo {
+ flex-basis:auto;
+ box-sizing: border-box;
+ margin-top: 20px;
+}
+
+.contact-button {
+ flex-basis:auto;
+ padding-top: 15px;
+}
+
+nav li a {
+  padding:0;
+}
+
+/***********************************
+SIDE NAV
+************************************/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #F3F3F3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+
+#sidenav-content {
+  margin-top: 15px;
+  padding: 0 3vw;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a h4 {
+  overflow: hidden;
+    white-space: nowrap;
+    color: #000;
+    display: block;
+    transition: 0.1s;
+}
+
+.sidenav p {
+    font-size: 16px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.slide-nav-link {
+  margin-top: 10px;
+  line-height: 2.2em;
+}
+
+.slide-nav-social {
+  width: 150px;
+  height:50px;
+  margin-top: 20px;
+}
+
+.slide-nav-social a {
+  width:20px;
+  padding: 0 15px 0 0;
+  display: inline-block;
+}
+
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #6B00FF;
+}
+
+.sidenav .closebtn {
+    font-size: 30px;
+    margin-left: 0px;
+}
+
+.closebtn a:hover {
+  color: #000;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/***********************************
+FOOTER
+************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width:20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/***********************************
+PAGE: PORTFOLIO
+************************************/
+
+.gallery {
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 0;
+}
+
+.gallery figure {
+  overflow: hidden;
+  float: left;
+  width: 48%;
+  margin: 1%;
+  z-index: 97;
+  position: relative;
+}
+
+.gallery figcaption {
+  background: rgba(255,255,255,0.97);
+  display : flex;
+  align-items : center;
+  text-align: center;
+  color: white;
+  float: left;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  right: 0;
+  top: 0;
+  height:100%;
+  z-index: 98;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  transition-delay: 100ms;
+}
+
+.gallery figcaption h3 { 
+  width:100%;
+  text-align: center;
+  color:#000;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+
+}
+
+.gallery li:hover figcaption {
+  opacity: 1;
+}
+
+
+
+/***********************************
+PAGE: Project
+************************************/
+
+.project-gallery{
+  margin: 0 auto;
+  padding: 0 1.5%;
+  list-style: none;
+}
+
+.project-gallery img{
+  max-width: 100%;
+  margin: 1.5% 0;
+}
+
+.project-gallery hr {
+  margin: 40px 0;
+  border: none;
+  height: 3px;
+  background-color: #000;
+}
+
+.project-title {
+  max-width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.description-text {
+  display:inline;
+}
+
+.left-column-text {
+  width:30%;
+  margin-left: 5%;
+  margin-top: 8px;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.left-column-text p {
+    margin: 10px 0 25px 0;
+}
+
+.left-column-text h5 {
+    margin-bottom: -5px;
+
+}
+.right-column-text {
+  width:50%;
+  margin: 0 5% 0 8%;
+  display:inline-block;
+  vertical-align: top;
+}
+.vertical-imgs {
+  display: -webkit-flex;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-flex;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 0;
+  width: 100%;
+  align-items: flex-start;
+}
+
+
+.vertical-img-left {
+  box-sizing: border-box;
+  padding-right: 2%;
+  width: 50%
+}
+
+.vertical-img-right {
+  box-sizing: border-box;
+  padding-left: 2%;
+  width: 50%
+}
+
+.prev-next-buttons {
+margin-right: -3.7%;
+}
+
+.prev-next-buttons a {
+  display: inline-block;
+  margin: 0;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+.prev-button {
+  width:48%;
+}
+.next-button {
+  text-align: right;
+  width:48%;
+}
+
+/***********************************
+PAGE: About
+************************************/
+
+/***********************************
+PAGE: CONTACT
+************************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png')
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png')
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png')
+}
+
+
+/***********************************
+COLORS
+************************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color:#000;
+}
+
+/*logo text */
+h1 {
+  color: #000;
+}
+
+/*link color*/
+a {
+  color:#000
+}
+
+/*nav link colors*/
+nav a, nav a:visited {
+  color: #000;
+}
+
+/* selected nav link colors*/
+nav a.selected, nav a:hover {
+  color: #5513FE
+}
+
+/* selected prev next link colors*/
+a h1.selected, a h1:hover {
+  color: #5513FE
+}
+
+a h4.selected, a h4:hover {
+  color: #5513FE
+}
+
+
+
+
