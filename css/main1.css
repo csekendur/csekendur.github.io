@@ -184,6 +184,10 @@ SIDE NAV
   line-height: 2.2em;
 }
 
+.slide-nav-logo {
+  padding-top:20px;
+}
+
 .slide-nav-social {
   width: 150px;
   height:50px;
