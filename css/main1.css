@@ -11,14 +11,17 @@ GENERAL
 
 a {
   text-decoration: none;
-     font-family: 'Karla', sans-serif;
-
+  font-family: 'Karla', sans-serif;
    font-size: 1em;
    letter-spacing: -0.03em;
 }
 
 img {
   max-width: 100%;
+}
+
+.hyperlink {
+  color:#5513FE;
 }
 
 
@@ -119,6 +122,8 @@ nav {
  flex-basis:auto;
  box-sizing: border-box;
  margin-top: 20px;
+ padding-left: 30px;
+
 }
 
 .contact-button {
