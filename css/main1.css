@@ -185,6 +185,10 @@ SIDE NAV
 }
 
 .slide-nav-logo {
+  /*padding-top:20px;*/
+}
+
+.slide-nav-text {
   padding-top:20px;
 }
 
