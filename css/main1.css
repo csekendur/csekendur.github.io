@@ -403,7 +403,7 @@ PAGE: About
 .left-column-text-about {
   width:40%;
   margin-left: 5%;
-  margin-top: 50px;
+  margin-top: 18px;
   display:inline-block;
   vertical-align: top;
 }
@@ -419,7 +419,7 @@ br {
 .right-column-text-about {
   width:20%;
   margin-left: 5%;
-  margin-top: 50px;
+  margin-top: 20px;
   display:inline-block;
   vertical-align: top;
 }
@@ -427,6 +427,11 @@ br {
 .about-list {
   list-style: none;
   padding-left: 0;
+}
+
+/* selected hyperlink color*/
+.about-list a {
+  color: #5513FE
 }
 
 .about-list li {
