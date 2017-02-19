@@ -1,4 +1,11 @@
 @media only screen and (max-width: 640px) {
+    /***********************************
+    PAGE: SIDE NAV
+    ************************************/
+      #sidenav-content {
+        margin-top: 15px;
+        padding: 0 4vw;
+      }
 
     /***********************************
     PAGE: PORTFOLIO
@@ -54,6 +61,11 @@
             font-size:2em;
             padding: 0;
             margin: 0;
+        }
+
+        .frame {
+          width:100%;
+          height:300px;
         }
 
     /***********************************
