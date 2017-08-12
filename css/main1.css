@@ -486,16 +486,16 @@ nav a, nav a:visited {
 
 /* selected nav link colors*/
 nav a.selected, nav a:hover {
-  color: #5513FE
+  color: #5513FE;
 }
 
 /* selected prev next link colors*/
 a h1.selected, a h1:hover {
-  color: #5513FE
+  color: #5513FE;
 }
 
 a h4.selected, a h4:hover {
-  color: #5513FE
+  color: #5513FE;
 }
 
 
