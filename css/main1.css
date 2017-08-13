@@ -408,10 +408,12 @@ margin-right: -3.7%;
 }
 .prev-button {
   width:48%;
+  padding-bottom: 40px;
 }
 .next-button {
   text-align: right;
   width:48%;
+  padding-bottom: 40px;
 }
 
 /***********************************
@@ -490,7 +492,7 @@ nav a.selected, nav a:hover {
 }
 
 /* selected prev next link colors*/
-a h1.selected, a h1:hover {
+a h2.selected, a h2:hover {
   color: #5513FE;
 }
 
