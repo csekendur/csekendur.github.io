@@ -394,6 +394,21 @@ PAGE: Project
   width: 50%
 }
 
+.horiztonal-img video {
+  display: -webkit-flex;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-flex;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 0;
+  width: 100%;
+  align-items: flex-start;
+  border-style:solid;
+  border-width: 1px;
+  border-color:gray;
+  pointer-events: none;
+}
 
 .prev-next-buttons {
 margin-right: -3.7%;
@@ -496,6 +511,10 @@ a h2.selected, a h2:hover {
 }
 
 a h4.selected, a h4:hover {
+  color: #5513FE;
+}
+
+a.color-link {
   color: #5513FE;
 }
 
