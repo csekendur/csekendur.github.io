@@ -1,90 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Cari Sekendur - Becca</title>
-    <link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="fonts/1606-HQIULX.css">
-	<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="css/main1.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="favicon.png">
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<head>
+  <meta charset="utf-8">
+  <title>Cari Sekendur - Becca</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="fonts/1606-HQIULX.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+  <link href="css/main1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="favicon.png" rel="icon" type="image/png">
+  <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-92186368-1', 'auto');
-    ga('send', 'pageview');
+     ga('create', 'UA-92186368-1', 'auto');
+     ga('send', 'pageview');
   </script>
-  </head>
-
-
-  <body>
-    <header>
-      <nav>
-        <ul id="nav-parent">
-            <li class="nav-icon">
-              <span style="cursor:pointer" onclick="openNav()"
-              </span>
-              <img src="img/nav-icon.svg" class="nav-icon">
-            </li>
-            <li id="logo">
-              <a href="index.html">
-                <h1>CARI</h1>
-              </a>
-            </li>
-            <li class="nav-icon">
-              <a href="mailto:carisekendur@gmail.com">Contact</a>
-            </li>        
-        </ul>
-      </nav>
-
-    </header>
-
-
-<div id="mySidenav" class="sidenav">
-  <div id="sidenav-content">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/nav-icon-open.svg" class="nav-icon"></a>
-    <div class= "slide-nav-link">
-      <a href="index.html">Work</a>
-      <a href="about.html">About</a>
-      <a href="mailto:carisekendur@gmail.com">Contact</a>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul id="nav-parent">
+        <li class="nav-icon"><span onclick="openNav()" style="cursor:pointer"></span> <img class="nav-icon" src="img/nav-icon.svg"></li>
+        <li id="logo">
+          <a href="index.html">
+          <h1>CARI</h1></a>
+        </li>
+        <li class="nav-icon">
+          <a href="mailto:carisekendur@gmail.com">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="sidenav" id="mySidenav">
+    <div id="sidenav-content">
+      <a class="closebtn" href="javascript:void(0)" onclick="closeNav()"><img class="nav-icon" src="img/nav-icon-open.svg"></a>
+      <div class="slide-nav-link">
+        <a href="index.html">Work</a> <a href="about.html">About</a> <a href="mailto:carisekendur@gmail.com">Contact</a>
+      </div>
+      <div class="slide-nav-text">
+        <a href="index.html">
+        <h4 class="slide-nav-logo">CARI SEKENDUR</h4></a>
+        <p>Creating visual experiences that make the complex clear and the average exceptional.</p>
+      </div>
+      <div class="slide-nav-social">
+        <a href='https://www.instagram.com/cari___cari/' target="_blank"><img src="img/insta-black.svg"></a> <a href='https://workingnotworking.com/carileigh' target="_blank"><img src="img/WNWlogo.svg"></a> <a href='https://www.linkedin.com/in/cskdr/' target="_blank"><img src="img/linkedin-black.svg"></a> <a href='https://www.pinterest.com/cskdr/' target="_blank"><img src="img/pinterest-black.svg"></a>
+      </div>
     </div>
-    <div class= "slide-nav-text">
-      <a href="index.html">
-        <h4 class= "slide-nav-logo">CARI SEKENDUR</h4>
-      </a>
-      <p>Creating visual experiences that make the complex clear and the average exceptional.</p>
-    </div>
-    <div class= "slide-nav-social">
-      <a href='https://www.instagram.com/cari___cari/' target="_blank"><img src="img/insta-black.svg"></a>
-      <a href='https://workingnotworking.com/carileigh' target="_blank"><img src="img/WNWlogo.svg"></a>
-      <a href='https://www.linkedin.com/in/cskdr/' target="_blank"><img src="img/linkedin-black.svg"></a>
-      <a href='https://www.pinterest.com/cskdr/' target="_blank"><img src="img/pinterest-black.svg"></a>
-    </div>
-  </div>
-</div>
+  </div><!--Click on the element below to open the side navigation menu.-->
+  <script>
+  function openNav() {
+     document.getElementById("mySidenav").style.width = "350px";
+  }
 
-<!--Click on the element below to open the side navigation menu.-->
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "350px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-
-
+  function closeNav() {
+     document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
   <div class="wrapper">
     <section class="project-gallery">
-      <div class="horiztonal-img">
-	        <img src="img/becca/CARI_BECCA_1.jpg" alt="">
-	      </div>
+      <div class="horiztonal-img"><img alt="" src="img/becca/CARI_BECCA_1.jpg"></div>
       <div class="project-title">
         <h2>BECCA</h2>
       </div>
@@ -101,56 +79,30 @@ function closeNav() {
           <p>Cari Sekendur, Claire Pedersen</p>
         </div>
         <div class="right-column-text">
-          <p> 
-          Becca and her team have been taking the hospitality world by storm for the past 15 years. They tell the stories of the hottest players in the industry with a whip-smart approach.<p>Drawing inspiration from the sensibilities of the women behind the brand, we designed a clean, fresh look and feel, including punchy colors, understated but eye-catching graphics, and cheeky language. We created a system layered with playful taglines and type treatments, a simple brand mark, logo, and pops of bright colors. The system was rolled out onto notebooks, pens, stationery, a website, and my personal favorite, custom candies. <a href="https://beccapr.com/" class="color-link" target="_blank">Their website</a>, layered with animation and a surprising layout give visitors a striking first interaction through which they can engage with the Becca team and learn about their impressive work.</p>
-          </p>
+          <p>Becca and her team have been taking the hospitality world by storm for the past 15 years. They tell the stories of the hottest players in the industry with a whip-smart approach.</p>
+          <p>Drawing inspiration from the sensibilities of the women behind the brand, we designed a clean, fresh look and feel, including punchy colors, understated but eye-catching graphics, and cheeky language. We created a system layered with playful taglines and type treatments, a simple brand mark, logo, and pops of bright colors. The system was rolled out onto notebooks, pens, stationery, a website, and my personal favorite, custom candies. <a class="color-link" href="https://beccapr.com/" target="_blank">Their website</a>, layered with animation and a surprising layout give visitors a striking first interaction through which they can engage with the Becca team and learn about their impressive work.</p>
+          <p></p>
         </div>
       </div>
-      <div class="horiztonal-img">
-        <img src="img/becca/CARI_BECCA_2.jpg" alt="">
-      </div>
-      <div class="horiztonal-img">
-        <img src="img/becca/CARI_BECCA_5.jpg" alt="">
-      </div>
-      <div class="horiztonal-img">
-        <img src="img/becca/CARI_BECCA_4.jpg" alt="">
-      </div>
-      <div class="horiztonal-img">
-        <img src="img/becca/CARI_BECCA_7.jpg" alt="">
-      </div>
-      <div class="horiztonal-img">
-        <img src="img/becca/CARI_BECCA_9.jpg" alt="">
-      </div>
-      <div class="horiztonal-img">
-        <img src="img/becca/CARI_BECCA_3.jpg" alt="">
-      </div>
-      <div class="horiztonal-img">
-        <img src="img/becca/CARI_BECCA_8.jpg" alt="">
-      </div>
-      <div class="horiztonal-img">
-        <img src="img/becca/CARI_BECCA_10.jpg" alt="">
-      </div>
-      <div class="horiztonal-img">
-        <img src="img/becca/CARI_BECCA_6.jpg" alt="">
-      </div>
+      <div class="horiztonal-img"><img alt="" src="img/becca/CARI_BECCA_2.jpg"></div>
+      <div class="horiztonal-img"><img alt="" src="img/becca/CARI_BECCA_5.jpg"></div>
+      <div class="horiztonal-img"><img alt="" src="img/becca/CARI_BECCA_4.jpg"></div>
+      <div class="horiztonal-img"><img alt="" src="img/becca/CARI_BECCA_7.jpg"></div>
+      <div class="horiztonal-img"><img alt="" src="img/becca/CARI_BECCA_9.jpg"></div>
+      <div class="horiztonal-img"><img alt="" src="img/becca/CARI_BECCA_3.jpg"></div>
+      <div class="horiztonal-img"><img alt="" src="img/becca/CARI_BECCA_8.jpg"></div>
+      <div class="horiztonal-img"><img alt="" src="img/becca/CARI_BECCA_10.jpg"></div>
+      <div class="horiztonal-img"><img alt="" src="img/becca/CARI_BECCA_6.jpg"></div>
       <hr class="bottom-hr">
       <div class="prev-next-buttons">
-        <a href="mtv.html" class="prev-button">
-          <h2>PREVIOUS</h2>
-        </a>
-        <a href="srsly.html" class="next-button">
-          <h2>NEXT</h2>
-        </a>
-
-   </section>  
-
+        <a class="prev-button" href="mtv.html">
+        <h2>PREVIOUS</h2></a> <a class="next-button" href="srsly.html">
+        <h2>NEXT</h2></a>
+      </div>
+    </section>
     <footer>
-    <p></p>
+      <p></p>
     </footer>
-  </div>  
-
-
+  </div>
 </body>
-
-
 </html>
