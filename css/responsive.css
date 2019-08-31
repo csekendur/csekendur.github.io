@@ -4,7 +4,16 @@
     ************************************/
       #sidenav-content {
         margin-top: 15px;
-        padding: 0 4vw;
+        padding: 0 5vw;
+      }
+
+      .nav-icon {
+        flex-basis:auto;
+        padding-top: 10px;
+      }
+
+      #logo {
+        padding-left:0px;
       }
 
     /***********************************
