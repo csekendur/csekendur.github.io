@@ -314,7 +314,7 @@ PAGE: Project
 
 .project-gallery img{
   max-width: 100%;
-  margin: 1.5% 0;
+  margin: 2% 0;
 }
 
 .project-gallery hr {
@@ -405,6 +405,10 @@ PAGE: Project
   border-width: 1px;
   border-color:gray;
   pointer-events: none;
+}
+
+.video {
+  margin: 50px 0 50px 0;
 }
 
 .prev-next-buttons {
