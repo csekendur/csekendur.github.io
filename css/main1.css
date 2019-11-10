@@ -358,6 +358,11 @@ PAGE: Project
   display:inline-block;
   vertical-align: top;
 }
+
+.right-column-text a {
+  color: #5513FE;
+}
+
 .vertical-imgs {
   display: -webkit-flex;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-flex;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -439,13 +444,13 @@ PAGE: About
 .left-column-text-about {
   width:40%;
   margin-left: 5%;
-  margin-top: 18px;
+  margin-top: 20px;
   display:inline-block;
   vertical-align: top;
 }
 
 .left-column-text-about p {
-    margin: 25px 0 25px 0;
+  letter-spacing: -0.02em;
 }
 
 br {
@@ -472,22 +477,18 @@ br {
 .about-list li {
   font-size: 1em;
   font-family: 'Karla', sans-serif;
-  line-height: 1.6em;
+  line-height: 1.4em;
   font-size: 1.2em;
-  letter-spacing: -0.03em;
-  margin-top: 0.1em;
+  letter-spacing: -0.02em;
+  margin-top: 0.3em;
 }
 
 .about-exhibit {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 10px;
   font-size: 1em;
   font-family: 'Karla', sans-serif;
-  line-height: 1.6em;
-  font-size: 1.2em;
-  letter-spacing: -0.03em;
-  margin-top: 0.1em;  
+  line-height: 1.4em;
+  letter-spacing: -0.02em;
+  margin: 1em 0;  
 }
 
 .testimonials {
@@ -511,7 +512,7 @@ h1 {
 
 /*link color*/
 a {
-  color:#000
+  color:#000;
 }
 
 /*nav link colors*/
